@@ -1,115 +1,77 @@
-<!DOCTYPE html>
+u<!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-          background-image:
-            url('Code.jpg');
-            background-size: cover;
-          background-position: center;  
-          background-position: no repeat;
-          
-        }
-
-        nav {
-            background-color: #333;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-
-        nav a:hover {
-            background-color: #555;
-        }
-
-        nav a.active {
-            background-color: #4CAF50;
-            color: white;
-        }
-
-        section {
-            padding: 60px 20px;
-            text-align: center;
-        }
-
-        section h2 {
-            font-size: 3em;
-            margin-bottom: 30px;
-            color: #2c3e50;
-            background-color: #3498db;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .button-wrapper {
-            display: inline-block;
-            position: relative;
-        }
-
-        button {
-            padding: 12px 24px;
-            font-size: 1.2em;
-            background-color: #3498db;
-            color: #fff;
-            border: none;
-            cursor: not-allowed;
-            border-radius: 8px;
-            transition: background-color 0.3s;
-        }
-
-        button:hover {
-            background-color: #2980b9;
-        }
-
-        .front-end-box {
-            background-color: #2c3e50;
-            color: #fff;
-            padding: 15px;
-            border-radius: 8px;
-            margin-top: 20px;
-            display: inline-block;
-        }
-    </style>
+    <title>Siphiwe Khumalo's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>Siphiwe Khumalo</h1>
+            <p>Hello. Welcome to my portfolio.</p>
+        </div>
+    </header>
 
-<nav>
-    <a class="active" href="home.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="contact.html">Contact Me</a>
-  <a
-href="education.html">Education</a>
-</nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="https://raw.githubusercontent.com/Khumalosiphiwe/gumball-personal-portfolio-website/main/1707807129015.jpg" alt="Siphiwe.K" class="profile-img">
+            <p>
+As a passionate developer and problem-solver, I'm dedicated to building innovative solutions that make a meaningful impact. With a keen interest in Ai, Web Development and Ui/UX design. I'm always looking to expand my skills and stay up-to-date with the latest technologies. My goal is to create efficient, user-friendly, and scalable solutions that drive success. I'm excited to share my projects and collaborations with you through this portfolio, and I look forward to connecting with like-minded individuals in the tech community.</p>
+        </div>
+    </section>
 
-<section>
-    <h2>Welcome,I'm Gumball</h2>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
 
-    <div class="button-wrapper">
-        <button disabled>Hire Me</button>
-    </div>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Online Store Gallery</h3>
+                <p>This is a project that I did for a client. It is a website that allows users to browse their catalogue</p>
+                <img src="https://raw.githubusercontent.com/Khumalosiphiwe/gumball-personal-portfolio-website/main/Screenshot_2024-08-22-15-28-46-83_40deb401b9ffe8e1df2f1cc5ba480b12%7E2.jpg" alt="Project 1">
+            </div>
+            <div class="project">
+                <h3>Albert Einstein</h3>
+                <p>Einstein and one of his famous quotes on energy.</p>
+                <img src="https://raw.githubusercontent.com/Khumalosiphiwe/gumball-personal-portfolio-website/main/images%20(3).jpeg" alt="Project 2">
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
 
-    <div class="front-end-box">
-        <p class="front-end-text">I'm a Junior Front End Developer</p>
-    </div>
-</section>
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <a href="https://drive.google.com/file/d/1mZzpQk2bqZ4CZhEKF0ywaZLjL3HaPINo/view?usp=drivesdk" download>Download My Resume</a>
+        </div>
+    </section>
 
-<!-- Your remaining content goes here -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: siphiwekhumalo817@gmail.com</p>
+            <p>Phone: +27 638776984</p>
+        </div>
+    </section>
 
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Siphiwe Khumalo. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
